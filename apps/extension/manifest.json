@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "cliper",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqdaiNnYR8yRQo4xlivrrG72kzwXC799XGFhKKN6hC173aoLnpYnIqVNW9tlwpKnNCa+6TKhlAuCpHnRrNIzGN4VbnQWXJQsx07r9xYjU6hJPKAanX8osrZaqi0smu9cZH2aUz5aB+OrmepFpUdqMWEcOVovzAj1eByDuMu7A39ViERq9TRGAmkdBftvkjB1jMX4AMNi8Y6HAHtv4QWmHqGIPD5ovDzLOhmIpy/+Qbm7DmM1ygXeY9VDyQsTrx0x6bTsIM0MetVCSPLa9R7GZvKAy7d+In23c/iZUKcixeEz869bytzRd2nVzenfPSN445wNnRpFYl6ek9RxRZmGIUQIDAQAB",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["cookies", "storage"],
+  "host_permissions": [
+    "http://localhost:3000/*",
+    "https://precious-earwig-7224.clerk.accounts.dev/*"
+  ]
+}
